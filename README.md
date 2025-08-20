@@ -16,11 +16,13 @@ v2rayA官方文档地址：https://v2raya.org/docs/prologue/introduction/
 `wget -qO - https://apt.v2raya.org/key/public-key.asc | sudo tee /etc/apt/keyrings/v2raya.asc` 
 #### 添加 V2RayA 软件源
 `echo "deb [signed-by=/etc/apt/keyrings/v2raya.asc] https://apt.v2raya.org/ v2raya main" | sudo tee /etc/apt/sources.list.d/v2raya.list`
+
 `sudo apt update`
 #### 安装 V2RayA
 `sudo apt install v2raya v2ray`
 #### 启动 v2rayA / 设置 v2rayA 自动启动
 `sudo systemctl start v2raya.service`
+
 `sudo systemctl enable v2raya.service`
 ### 方法二 手动导入公钥及安装（若方法一失败）
 #### 浏览器下载密钥
@@ -52,6 +54,7 @@ ubuntu内置浏览器访问 https://apt.v2raya.org/key/public-key.asc 默认保�
 根据节点链接、订阅链接、扫描二维码和批量导入等方式导入
 
 输入订阅链接并点击Confirm
+
 ![alt text](640bc803-7643-4de4-bac5-34b5de53376f.png)
 
 成功导入订阅点击Update刷新
@@ -87,3 +90,4 @@ ubuntu内置浏览器访问 https://apt.v2raya.org/key/public-key.asc 默认保�
 打开访问的网站 显示页面成功 若显示缓慢 需切换其他节点
 
 ![alt text](image-5.png)
+
