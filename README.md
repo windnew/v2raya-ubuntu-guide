@@ -1,8 +1,12 @@
 # v2raya-ubuntu-guide
-在 Ubuntu 系统上部署 V2RayA 的详细教程
+在 Ubuntu18.04 系统上部署 V2RayA 的详细教程
+## VMware虚拟机下载地址和安装视频教程
+https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion
 
-
-## Ubuntu18.0在线安装VMwareTools：
+https://www.bilibili.com/video/BV1DAKmz7EAf/?spm_id_from=333.337.search-card.all.click&vd_source=f9cf714fcc698c2b4b320d7f95579328
+## Ubuntu18.04镜像下载地址
+https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/18.04/ubuntu-18.04.6-desktop-amd64.iso
+## Ubuntu18.04 在线安装VMwareTools：
 1、卸载旧版本VMwareTools
 `sudo apt-get autoremove open-vm-tools`
 2、联网安装VMware tools
@@ -90,4 +94,5 @@ ubuntu内置浏览器访问 https://apt.v2raya.org/key/public-key.asc 默认保�
 打开访问的网站 显示页面成功 若显示缓慢 需切换其他节点
 
 ![alt text](image-5.png)
+
 
